@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6703EF2D919C4100DF2637 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6703EE2D919BA600DF2637 /* CoreDataManager.swift */; };
+		1A9A0DD32D92D46F007E2BFB /* CityEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A0DD22D92D46F007E2BFB /* CityEntity+CoreDataProperties.swift */; };
+		1A9A0DD52D92D484007E2BFB /* CityEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A0DD42D92D484007E2BFB /* CityEntity+CoreDataClass.swift */; };
+		1A9A0DD82D92D494007E2BFB /* Mydata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A0DD62D92D494007E2BFB /* Mydata.xcdatamodeld */; };
+		1ABB2D802D8C371100D3177C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABB2D7F2D8C371100D3177C /* Security.framework */; };
+		1ABB2E562D8C482700D3177C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB2E4A2D8C482700D3177C /* AppDelegate.swift */; };
+		1ABB2E572D8C482700D3177C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB2E512D8C482700D3177C /* SceneDelegate.swift */; };
+		1ABB2E582D8C482700D3177C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB2E522D8C482700D3177C /* ViewController.swift */; };
+		1ABB2E592D8C482700D3177C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB2E4B2D8C482700D3177C /* Assets.xcassets */; };
+		1ABB2E5B2D8C482700D3177C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB2E4E2D8C482700D3177C /* LaunchScreen.storyboard */; };
+		1ABB2E5C2D8C482700D3177C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB2E502D8C482700D3177C /* Main.storyboard */; };
+		1ABB2E5F2D8C486400D3177C /* 城市管理视图.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB2E5E2D8C486400D3177C /* 城市管理视图.swift */; };
+		1ABB2E612D8C48DB00D3177C /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ABB2E602D8C48DB00D3177C /* city.json */; };
+		1ABB2E632D8C4D9800D3177C /* SearchDataTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB2E622D8C4D9800D3177C /* SearchDataTableCell.swift */; };
+		1ABB2E942D8C4E6B00D3177C /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB2E932D8C4E6B00D3177C /* model.swift */; };
+		1ACCA5962D8D852800E9D3EE /* CityCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCA5952D8D852700E9D3EE /* CityCollectionCell.swift */; };
+		1ACCA59D2D8D8C8800E9D3EE /* NetWorkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCA59A2D8D8C8800E9D3EE /* NetWorkAPI.swift */; };
+		1ACCA59E2D8D8C8800E9D3EE /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCA59B2D8D8C8800E9D3EE /* NetWorkManager.swift */; };
+		1ACCA5A22D8D8CDB00E9D3EE /* HandleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCA5A12D8D8CDB00E9D3EE /* HandleData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02EC558ADAA77930FFC5CEC1 /* Pods-天气 Pro Max.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-天气 Pro Max.debug.xcconfig"; path = "Target Support Files/Pods-天气 Pro Max/Pods-天气 Pro Max.debug.xcconfig"; sourceTree = "<group>"; };
+		12A65DCF3DB0BCB0140E78B1 /* Pods-天气 Pro Max.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-天气 Pro Max.release.xcconfig"; path = "Target Support Files/Pods-天气 Pro Max/Pods-天气 Pro Max.release.xcconfig"; sourceTree = "<group>"; };
+		1A6703EE2D919BA600DF2637 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1A9A0DD22D92D46F007E2BFB /* CityEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CityEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1A9A0DD42D92D484007E2BFB /* CityEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CityEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A9A0DD72D92D494007E2BFB /* Mydata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mydata.xcdatamodel; sourceTree = "<group>"; };
+		1ABB2D292D8C352600D3177C /* WetherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABB2D7F2D8C371100D3177C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1ABB2E4A2D8C482700D3177C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABB2E4B2D8C482700D3177C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABB2E4C2D8C482700D3177C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABB2E4D2D8C482700D3177C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABB2E4F2D8C482700D3177C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABB2E512D8C482700D3177C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ABB2E522D8C482700D3177C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ABB2E5E2D8C486400D3177C /* 城市管理视图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "城市管理视图.swift"; sourceTree = "<group>"; };
+		1ABB2E602D8C48DB00D3177C /* city.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		1ABB2E622D8C4D9800D3177C /* SearchDataTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataTableCell.swift; sourceTree = "<group>"; };
+		1ABB2E932D8C4E6B00D3177C /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		1ACCA5952D8D852700E9D3EE /* CityCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCollectionCell.swift; sourceTree = "<group>"; };
+		1ACCA59A2D8D8C8800E9D3EE /* NetWorkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkAPI.swift; sourceTree = "<group>"; };
+		1ACCA59B2D8D8C8800E9D3EE /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		1ACCA5A12D8D8CDB00E9D3EE /* HandleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleData.swift; sourceTree = "<group>"; };
+		F9BB6FA685653D6F3679BC23 /* Pods____Pro_Max.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____Pro_Max.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AA376F42D90336400BAED1B /* 视图cell集合 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "视图cell集合";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABB2D262D8C352600D3177C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB2D802D8C371100D3177C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6703D32D91942F00DF2637 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				1A6703EE2D919BA600DF2637 /* CoreDataManager.swift */,
+				1A9A0DD22D92D46F007E2BFB /* CityEntity+CoreDataProperties.swift */,
+				1A9A0DD42D92D484007E2BFB /* CityEntity+CoreDataClass.swift */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+		1AA376E82D9030CD00BAED1B /* 数据 */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB2E602D8C48DB00D3177C /* city.json */,
+			);
+			path = "数据";
+			sourceTree = "<group>";
+		};
+		1ABB2D202D8C352600D3177C = {
+			isa = PBXGroup;
+			children = (
+				1ABB2E532D8C482700D3177C /* WetherDemo */,
+				1ABB2D2A2D8C352600D3177C /* Products */,
+				B8859A13BCF6A2B65D2942E6 /* Pods */,
+				9846D9F3509DB2C19513C02E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABB2D2A2D8C352600D3177C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB2D292D8C352600D3177C /* WetherDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABB2E532D8C482700D3177C /* WetherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AA376E82D9030CD00BAED1B /* 数据 */,
+				1ACCA5A52D8D8DD800E9D3EE /* model */,
+				1ACCA5992D8D853900E9D3EE /* 城市管理 */,
+				1ABB2E4A2D8C482700D3177C /* AppDelegate.swift */,
+				1ABB2E4B2D8C482700D3177C /* Assets.xcassets */,
+				1ABB2E4C2D8C482700D3177C /* Info.plist */,
+				1ABB2E4E2D8C482700D3177C /* LaunchScreen.storyboard */,
+				1ABB2E502D8C482700D3177C /* Main.storyboard */,
+				1ABB2E512D8C482700D3177C /* SceneDelegate.swift */,
+				1ABB2E522D8C482700D3177C /* ViewController.swift */,
+				1ABB2E622D8C4D9800D3177C /* SearchDataTableCell.swift */,
+				1AA376F42D90336400BAED1B /* 视图cell集合 */,
+				1ACCA59C2D8D8C8800E9D3EE /* NetWork */,
+				1A6703D32D91942F00DF2637 /* coredata */,
+				1A9A0DD62D92D494007E2BFB /* Mydata.xcdatamodeld */,
+			);
+			path = WetherDemo;
+			sourceTree = "<group>";
+		};
+		1ACCA5992D8D853900E9D3EE /* 城市管理 */ = {
+			isa = PBXGroup;
+			children = (
+				1ACCA5952D8D852700E9D3EE /* CityCollectionCell.swift */,
+				1ABB2E5E2D8C486400D3177C /* 城市管理视图.swift */,
+			);
+			path = "城市管理";
+			sourceTree = "<group>";
+		};
+		1ACCA59C2D8D8C8800E9D3EE /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				1ACCA59A2D8D8C8800E9D3EE /* NetWorkAPI.swift */,
+				1ACCA59B2D8D8C8800E9D3EE /* NetWorkManager.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		1ACCA5A52D8D8DD800E9D3EE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB2E932D8C4E6B00D3177C /* model.swift */,
+				1ACCA5A12D8D8CDB00E9D3EE /* HandleData.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9846D9F3509DB2C19513C02E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ABB2D7F2D8C371100D3177C /* Security.framework */,
+				F9BB6FA685653D6F3679BC23 /* Pods____Pro_Max.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8859A13BCF6A2B65D2942E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02EC558ADAA77930FFC5CEC1 /* Pods-天气 Pro Max.debug.xcconfig */,
+				12A65DCF3DB0BCB0140E78B1 /* Pods-天气 Pro Max.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABB2D282D8C352600D3177C /* WetherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABB2D3F2D8C352600D3177C /* Build configuration list for PBXNativeTarget "WetherDemo" */;
+			buildPhases = (
+				8AA6BB13C32C8CE5A1F65CD8 /* [CP] Check Pods Manifest.lock */,
+				1ABB2D252D8C352600D3177C /* Sources */,
+				1ABB2D262D8C352600D3177C /* Frameworks */,
+				1ABB2D272D8C352600D3177C /* Resources */,
+				D76A332FECEDCD91CFF98CBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AA376F42D90336400BAED1B /* 视图cell集合 */,
+			);
+			name = WetherDemo;
+			productName = "天气 Pro Max";
+			productReference = 1ABB2D292D8C352600D3177C /* WetherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABB2D212D8C352600D3177C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1ABB2D282D8C352600D3177C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 1ABB2D242D8C352600D3177C /* Build configuration list for PBXProject "WetherDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABB2D202D8C352600D3177C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1ABB2D2A2D8C352600D3177C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABB2D282D8C352600D3177C /* WetherDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABB2D272D8C352600D3177C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB2E592D8C482700D3177C /* Assets.xcassets in Resources */,
+				1ABB2E5B2D8C482700D3177C /* LaunchScreen.storyboard in Resources */,
+				1ABB2E612D8C48DB00D3177C /* city.json in Resources */,
+				1ABB2E5C2D8C482700D3177C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AA6BB13C32C8CE5A1F65CD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-天气 Pro Max-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76A332FECEDCD91CFF98CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-天气 Pro Max/Pods-天气 Pro Max-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-天气 Pro Max/Pods-天气 Pro Max-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-天气 Pro Max/Pods-天气 Pro Max-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABB2D252D8C352600D3177C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACCA5962D8D852800E9D3EE /* CityCollectionCell.swift in Sources */,
+				1A9A0DD52D92D484007E2BFB /* CityEntity+CoreDataClass.swift in Sources */,
+				1ACCA5A22D8D8CDB00E9D3EE /* HandleData.swift in Sources */,
+				1A9A0DD32D92D46F007E2BFB /* CityEntity+CoreDataProperties.swift in Sources */,
+				1A6703EF2D919C4100DF2637 /* CoreDataManager.swift in Sources */,
+				1ABB2E5F2D8C486400D3177C /* 城市管理视图.swift in Sources */,
+				1ABB2E562D8C482700D3177C /* AppDelegate.swift in Sources */,
+				1ABB2E572D8C482700D3177C /* SceneDelegate.swift in Sources */,
+				1ABB2E632D8C4D9800D3177C /* SearchDataTableCell.swift in Sources */,
+				1A9A0DD82D92D494007E2BFB /* Mydata.xcdatamodeld in Sources */,
+				1ABB2E942D8C4E6B00D3177C /* model.swift in Sources */,
+				1ACCA59D2D8D8C8800E9D3EE /* NetWorkAPI.swift in Sources */,
+				1ACCA59E2D8D8C8800E9D3EE /* NetWorkManager.swift in Sources */,
+				1ABB2E582D8C482700D3177C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABB2E4E2D8C482700D3177C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABB2E4D2D8C482700D3177C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABB2E502D8C482700D3177C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABB2E4F2D8C482700D3177C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABB2D402D8C352600D3177C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EC558ADAA77930FFC5CEC1 /* Pods-天气 Pro Max.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 295TWV2746;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WetherDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaijiang152..---Pro-Max";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABB2D412D8C352600D3177C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A65DCF3DB0BCB0140E78B1 /* Pods-天气 Pro Max.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 295TWV2746;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WetherDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaijiang152..---Pro-Max";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ABB2D422D8C352600D3177C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABB2D432D8C352600D3177C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABB2D242D8C352600D3177C /* Build configuration list for PBXProject "WetherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB2D422D8C352600D3177C /* Debug */,
+				1ABB2D432D8C352600D3177C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABB2D3F2D8C352600D3177C /* Build configuration list for PBXNativeTarget "WetherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABB2D402D8C352600D3177C /* Debug */,
+				1ABB2D412D8C352600D3177C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A9A0DD62D92D494007E2BFB /* Mydata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A9A0DD72D92D494007E2BFB /* Mydata.xcdatamodel */,
+			);
+			currentVersion = 1A9A0DD72D92D494007E2BFB /* Mydata.xcdatamodel */;
+			path = Mydata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1ABB2D212D8C352600D3177C /* Project object */;
+}

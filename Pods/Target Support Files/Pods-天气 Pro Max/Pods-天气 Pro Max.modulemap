@@ -1,0 +1,6 @@
+framework module Pods____Pro_Max {
+  umbrella header "Pods-天气 Pro Max-umbrella.h"
+
+  export *
+  module * { export * }
+}

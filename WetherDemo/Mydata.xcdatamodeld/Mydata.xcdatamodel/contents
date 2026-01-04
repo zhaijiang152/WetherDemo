@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24D81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CityEntity" representedClassName="CityEntity" syncable="YES">
+        <attribute name="backIden" optional="YES" attributeType="String"/>
+        <attribute name="future" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="now" optional="YES" attributeType="Binary"/>
+        <attribute name="tem" optional="YES" attributeType="String"/>
+        <attribute name="temRange" optional="YES" attributeType="String"/>
+        <attribute name="today" optional="YES" attributeType="Binary"/>
+        <attribute name="weather" optional="YES" attributeType="String"/>
+    </entity>
+</model>
