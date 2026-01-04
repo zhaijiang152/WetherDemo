@@ -1,4 +1,4 @@
-# WetherDemo
+# WeatherDemo
 
 > 一款模仿市面上主流天气App功能的Demo
 ---
